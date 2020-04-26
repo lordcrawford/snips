@@ -1,0 +1,90 @@
+<html>
+	<head>		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+			})
+		</script>
+
+		<style>
+			body{
+				background-color: white;
+				text-align: center;
+				font-family: "Roboto";
+			}
+			.navbar {
+				background-color: white;
+				font-size: 15pt;
+				max-height: 5%;
+			}
+			.navbar-nav {
+				margin-left: 10px;
+			}
+			.nav-item{
+				margin: 10 40 0 0;
+			}
+			p{
+				background-color: lightgray;
+				margin-top: 30;
+				padding: 20 0 20 0;
+				font-size: 14pt;
+			}
+			h1,h2{
+				font-weight: bold;
+			}
+			h1{
+				font-size: 35pt;
+			}
+			#create{
+				color: lightgrey;
+				border-radius: 35px;
+				padding: 17 40 17 40;
+				font-size: 25pt;
+				margin-top: 70px;
+			}
+			
+		</style>
+		
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg">
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+			</button>
+  			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				  <a class="nav-item nav-link active" href="/index.html">Home <span class="sr-only">(current)</span></a>
+				  <a class="nav-item nav-link" href="/explore.html">Explore</a>
+					<a class="nav-item nav-link" href="/marketplace.html">Marketplace</a>
+				  <a class="nav-item nav-link" href="/profile.html">Profile</a>
+				</div>		
+		  	</div>
+		</nav>
+		
+		<div class = "container-fluid">
+			<h1>Creator Studio</h1><hr>
+			<h2>My Future Projects</h2>
+			<div class = "row justify-content-center">
+				<div class = "col-md-4"></div>
+				<div class = "col-md-2"><p>My Shirt</p></div>
+				<div class = "col-md-2"><p>My Jeans</p></div>
+				<div class = "col-md-4"></div>
+			</div>
+			<div class = "row justify-content-center">
+				<form action="/create.html">
+					<input id = "create" type="submit" value="Create New" />
+				</form>
+			</div>
+			
+		</div>
+	</body>
+</html>

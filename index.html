@@ -1,0 +1,88 @@
+<html>
+	<head>		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				$("#login").click(function(){
+					window.location.href = "/profile.html"
+				})
+			})
+		</script>
+
+		<style>
+			body{
+				background-color: white;
+				text-align: center;
+				font-family: "Roboto";
+			}
+			.navbar {
+				background-color: white;
+				font-size: 15pt;
+				height: 5%;
+			}
+			.navbar-nav {
+				margin-left: 10px;
+			}
+			.nav-item{
+				margin: 10 40 0 0;
+			}
+			button {
+				color: lightgrey;
+				width: 20%;
+				margin: 10 0 0 20;
+				border-radius: 35px;
+				padding: 17 0 17 0;
+				font-size: 14pt;
+			}
+			#signup {
+				background-color: aliceblue;
+				border: none;
+				margin-top: 20px;
+			}
+			#login{
+				margin-top: 30px;
+				border-width: 3px;
+			}
+
+			
+		</style>
+		
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg">
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+			</button>
+  			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				  <a class="nav-item nav-link active" href="/explore.html">Explore <span class="sr-only">(current)</span></a>
+				  <a class="nav-item nav-link" href="/marketplace.html">Marketplace</a>
+				  <a class="nav-item nav-link" href="#">About</a>
+				</div>		
+		  	</div>
+		</nav>
+		
+		<div class = "container-fluid">
+			<div class = "row justify-content-center">
+				<div class = "col-md-4">
+					<img src = "img/snips_logo.png" class="img-fluid">
+				</div>
+			</div>
+			<div class = "row justify-content-center">
+				<button id = "signup">Sign Up</button>
+			</div>
+			<div class = "row justify-content-center">
+				<button id = "login">Login</button>
+			</div>
+			
+		</div>
+	</body>
+</html>
